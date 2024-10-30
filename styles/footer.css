@@ -1,0 +1,9 @@
+.password-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-footer p {
+    font-size: small;
+}

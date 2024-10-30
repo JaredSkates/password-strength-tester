@@ -1,0 +1,47 @@
+.password-tester {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 90%;
+}
+
+.tester-contents {
+    background: whitesmoke;
+    width: 400px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+
+    border-radius: 16px;
+
+}
+
+.tester-contents input {
+    outline: none;
+    width: 95%;
+    font-size: 1.25rem;
+    padding: 10px;
+    margin: 5px;
+
+    border-radius: 16px;
+    border: none;
+
+    overflow: hidden;
+}
+
+.password-character-container {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 1vw;
+
+    gap: 10px;
+}
