@@ -2,7 +2,7 @@
 
 ## Styles Folder
 - 1 Main Stylesheet and 3 Separate Stylesheets For Each Section
-- 
+
 ## Scripts Folder
 ### Features
 - **Real-time Password Strength Feedback**: As the user types their password, the strength is evaluated and displayed.
