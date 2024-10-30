@@ -14,14 +14,14 @@
   - Presence of special symbols
 - **Color-Coded Feedback**: Visual cues indicate which password strength criteria are met.
 
-## How It Works
+### How It Works
 
 1. The code listens for input events on a password input field.
 2. It evaluates the password's length and character content.
 3. Based on the criteria, it determines whether the password is "Weak," "Moderate," "Strong," or if no password has been entered.
 4. It updates the character count and color codes the criteria indicators based on the user's input.
 
-## Usage
+### Usage
 
 1. Include the script in your HTML file.
 2. Create the necessary HTML elements:

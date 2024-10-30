@@ -12,7 +12,7 @@ document.getElementById('password').addEventListener('input', function() {
     const hasNumbers = /\d/.test(password); // Check for numbers
     const hasSymbols = /[!@#$%^&*(),.?":{}|<>]/.test(password); // Check for symbols
     
-    // Determine password strength
+    // Algorithm to Determines password strength
     if (password.length === 0) {
         passwordStrengthElement.textContent = "No Password";
     } else if (password.length < 6) { 
@@ -23,7 +23,7 @@ document.getElementById('password').addEventListener('input', function() {
         passwordStrengthElement.textContent = "Moderate Password";
     }
 
-    // Rule Checker
+    // Rule Checker; If a certain rule is within the input, the color of text changes
     if(hasLowerCase) {
         document.getElementById('lowerCase').style.color = "red";
     }
